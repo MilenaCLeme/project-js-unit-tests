@@ -49,6 +49,5 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
     const arquivoTwo = test[1]
     assert.deepStrictEqual(arquivo.details.productId, 'Alcool gel123')
     assert.deepStrictEqual(arquivoTwo.details.productId, 'Mascara123')
-    
   });
 });
